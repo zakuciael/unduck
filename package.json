@@ -9,10 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^22.14.1",
     "typescript": "~5.7.2",
-    "vite": "^6.1.0"
-  },
-  "dependencies": {
-    "vite-plugin-pwa": "^0.21.1"
+    "vite": "^6.1.0",
+    "vite-plugin-pwa": "^0.21.1",
+    "vite-plugin-transform": "^2.0.1"
   }
 }
