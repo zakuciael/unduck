@@ -11,7 +11,7 @@ export default defineConfig(({ mode }) => {
       transformPlugin({
         tStart: "%{",
         tEnd: "}%",
-        replaceFiles: [resolve(join(__dirname, "./public/opensearch.xml"))],
+        replaceFiles: [resolve(join(__dirname, "./dist/opensearch.xml"))],
         replace: {
           VITE_PUBLIC_URL: env.VITE_PUBLIC_URL,
         },
